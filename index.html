@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Tela Acesso</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="formulario-login">
+            <h1 class="titulo-login">Login</h1>
+
+            <form id="formularioLogin" class="formulario">
+                <div class="grupo-input">
+                    <i class="fas fa-user icone-input"></i>
+                    <input type="text" id="usuario" placeholder="Usuário" required>
+                </div>
+
+                <div class="grupo-input">
+                    <i class="fas fa-lock    icone-input"></i>
+                    <input type="password" id="senha" placeholder="Senha" required>
+                </div>
+                <div class="opcoes-formulario">
+                    <label class="lembre-me">
+                        <input type="checkbox" id="lembreMe">
+                        <span class="marca-check"></span>
+                        Lembre-me
+                    </label>
+
+                    <a href="#" class="esqueceu-senha">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="botao-login">Entrar</button>
+            </form>
+
+            <div class="secaocadastro">
+                <p class="texto-cadastro">Não tem uma conta?</p>
+                <button class="botao-cadastrar">Cadastrar</button>
+            </div>
+        </div>
+        <div class="sobreposicao"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
